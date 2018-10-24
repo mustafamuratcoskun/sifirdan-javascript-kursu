@@ -1,0 +1,26 @@
+{
+  "name": "employee-project",
+  "version": "1.0.0",
+  "description": "This is a employee project with using webpack,babel,webpack-dev-server and Es6 Modules",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "This is a test",
+    "start": "webpack-dev-server --output-public-path=/bundles/  --mode development --open --hot",
+    "build": "webpack --progress"
+  },
+  "keywords": [
+    "employee",
+    "project"
+  ],
+  "author": "Mustafa Murat Coşkun",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.22.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  }
+}
